@@ -1,228 +1,234 @@
 # 🤖 Alfido Tech AI Internship Projects
 
-This repository contains the projects completed during my **AI Internship at Alfido Tech**. The internship focused on applying Machine Learning, Deep Learning, Transfer Learning, and Model Deployment to solve real-world problems.
+Welcome to my AI Internship project repository completed during the **Alfido Tech AI Internship**.
+
+This repository contains three end-to-end Artificial Intelligence and Machine Learning projects demonstrating concepts in Machine Learning, Deep Learning, Computer Vision, Model Interpretation, and API Deployment.
 
 ---
 
-## 📌 Internship Details
+## 👨‍💻 Intern Details
 
-- **Intern:** Yuvraj Singh Tomar
-- **CID:** IS-2026-9762
-- **Internship:** Alfido Tech AI Internship
+**Name:** Yuvraj Singh Tomar
 
----
+**CID:** IS-2026-9762
 
-# 📂 Projects
-
-## 🔹 Task 1 – Customer Churn Prediction Using Machine Learning
-
-### Description
-Developed a machine learning model to predict whether a customer is likely to churn using supervised learning algorithms.
-
-### Technologies Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
-- Joblib
-
-### Machine Learning Models
-- Logistic Regression
-- Random Forest Classifier
-
-### Features
-- Data Preprocessing
-- Exploratory Data Analysis
-- Feature Scaling
-- Hyperparameter Tuning
-- Cross Validation
-- Model Evaluation
-- Model Saving
-
-### Evaluation Metrics
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- ROC Curve
-- ROC-AUC Score
-- Confusion Matrix
+**Internship:** Alfido Tech AI Internship
 
 ---
 
-## 🌸 Task 2 – Flower Image Classification Using MobileNetV2
-
-### Description
-Implemented a deep learning image classifier using **Transfer Learning** with MobileNetV2 to classify flower images into five categories.
-
-### Technologies Used
-- Python
-- TensorFlow
-- Keras
-- NumPy
-- Matplotlib
-
-### Dataset
-TensorFlow Flowers Dataset
-
-### Flower Classes
-- Daisy
-- Dandelion
-- Roses
-- Sunflowers
-- Tulips
-
-### Features
-- Image Preprocessing
-- Data Augmentation
-- Transfer Learning
-- MobileNetV2
-- Model Training
-- Performance Evaluation
-
----
-
-## 🩺 Task 3 – Breast Cancer Prediction API
-
-### Description
-Developed a REST API using **FastAPI** to predict whether a breast tumor is benign or malignant using a trained Random Forest model.
-
-### Technologies Used
-- Python
-- FastAPI
-- Uvicorn
-- Scikit-learn
-- Joblib
-- Docker
-
-### Features
-- REST API
-- JSON Request & Response
-- Swagger UI Documentation
-- Docker Support
-- Model Deployment
-
-### API Endpoints
-
-#### GET /
-
-Returns a welcome message.
-
-#### POST /predict
-
-Accepts patient diagnostic measurements and returns:
-
-- Prediction
-- Class
-- Confidence Score
-- Model Name
-
----
-
-# 📁 Repository Structure
+# 📂 Repository Structure
 
 ```
 AlfidoTech-AI-Internship
 │
-├── Task1_Customer_Churn/
-│   ├── Task1.ipynb
-│   ├── Report.pdf
-│   ├── best_classification_model.pkl
-│   ├── scaler.pkl
-│   └── README.md
+├── TASK-1
+│   ├── README.md
+│   ├── Task-1_Cancer_Classification_Modified.ipynb
+│   ├── images/
+│   ├── report/
+│   └── requirements.txt
 │
-├── Task2_Flower_Classification/
-│   ├── Task2.ipynb
-│   ├── Report.pdf
-│   ├── cifar10_mobilenetv2.keras
-│   └── README.md
+├── TASK-2
+│   ├── README.md
+│   ├── Task-2_Flower_Classification.ipynb
+│   ├── images/
+│   ├── report/
+│   └── requirements.txt
 │
-├── Task3_BreastCancer_API/
+├── TASK-3
+│   ├── README.md
+│   ├── Task-3-Breast_Cancer_Classification.ipynb
 │   ├── app.py
 │   ├── Dockerfile
-│   ├── requirements.txt
-│   ├── README.md
 │   ├── best_classification_model.pkl
-│   └── scaler.pkl
+│   ├── scaler.pkl
+│   ├── images/
+│   ├── report/
+│   └── requirements.txt
 │
 └── README.md
 ```
 
 ---
 
-# 🚀 How to Run
+# 📌 Projects
 
-## Task 1
+## 🩺 TASK-1 – Breast Cancer Classification using Machine Learning
 
-Open the notebook and run all cells.
+This project focuses on classifying breast tumors as **Benign** or **Malignant** using supervised machine learning techniques.
+
+### Highlights
+
+- Data Preprocessing
+- Exploratory Data Analysis
+- Feature Scaling
+- Logistic Regression
+- Random Forest Classifier
+- Hyperparameter Tuning
+- Cross Validation
+- Model Evaluation
+- Feature Importance Analysis
+- Model Saving
+
+📁 Location:
 
 ```
-jupyter notebook
+TASK-1/
 ```
 
 ---
 
-## Task 2
+## 🌸 TASK-2 – Flower Image Classification using Deep Learning
 
-Open the notebook and execute all cells.
+A Computer Vision project developed using **TensorFlow** and **Transfer Learning** with **MobileNetV2** for classifying flower species.
+
+### Highlights
+
+- TensorFlow & Keras
+- MobileNetV2
+- Transfer Learning
+- Data Augmentation
+- Image Classification
+- Performance Evaluation
+- Model Visualization
+
+📁 Location:
 
 ```
-jupyter notebook
+TASK-2/
 ```
 
 ---
 
-## Task 3
+## 🚀 TASK-3 – Breast Cancer Prediction API using FastAPI
 
-Install dependencies
+This project deploys the trained breast cancer classification model as a REST API using **FastAPI**.
+
+### Highlights
+
+- FastAPI
+- REST API
+- Swagger UI
+- JSON Requests & Responses
+- Joblib Model Loading
+- Docker Support
+- Deployment Ready
+
+📁 Location:
+
+```
+TASK-3/
+```
+
+---
+
+# 🛠 Technologies Used
+
+### Programming Language
+
+- Python
+
+### Machine Learning
+
+- Scikit-learn
+- TensorFlow
+- Keras
+
+### Data Analysis
+
+- Pandas
+- NumPy
+
+### Visualization
+
+- Matplotlib
+
+### Deployment
+
+- FastAPI
+- Uvicorn
+- Docker
+
+### Development Environment
+
+- Jupyter Notebook
+- Visual Studio Code
+
+---
+
+# 📚 Skills Demonstrated
+
+- Machine Learning
+- Deep Learning
+- Computer Vision
+- Transfer Learning
+- Data Preprocessing
+- Feature Engineering
+- Exploratory Data Analysis
+- Hyperparameter Tuning
+- Cross Validation
+- Model Evaluation
+- Model Deployment
+- REST API Development
+- Docker Containerization
+
+---
+
+# 📄 Reports
+
+Each task contains a detailed project report inside its respective **report/** folder.
+
+- **TASK-1/report/**
+- **TASK-2/report/**
+- **TASK-3/report/**
+
+---
+
+# 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YuvrajSinghTomar01/AlfidoTech-AI-Internship.git
+```
+
+Navigate to any task:
+
+```bash
+cd TASK-1
+```
+
+or
+
+```bash
+cd TASK-2
+```
+
+or
+
+```bash
+cd TASK-3
+```
+
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Start the FastAPI server
-
-```bash
-uvicorn app:app --reload
-```
-
-Open Swagger UI
-
-```
-http://127.0.0.1:8000/docs
-```
-
----
-
-# 📊 Skills Demonstrated
-
-- Machine Learning
-- Deep Learning
-- Transfer Learning
-- Computer Vision
-- Data Preprocessing
-- Model Evaluation
-- Hyperparameter Tuning
-- FastAPI
-- REST API Development
-- Docker
-- Python
-- TensorFlow
-- Scikit-learn
+Follow the instructions in each task's `README.md` to run the project.
 
 ---
 
 # 📜 License
 
-This repository was created for educational and internship purposes as part of the **Alfido Tech AI Internship**.
+This repository was created for educational purposes as part of the **Alfido Tech AI Internship**.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Yuvraj Singh Tomar**
 
-AI & Machine Learning Enthusiast
-
-GitHub: https://github.com/YuvrajSinghTomar01
+- GitHub: https://github.com/YuvrajSinghTomar01
+- AI & Machine Learning Enthusiast
